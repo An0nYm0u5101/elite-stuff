@@ -1,4 +1,4 @@
-FROM ruby:2.3-slim
+FROM ruby:2.5-slim
 
 RUN apt-get update && \
 	apt-get -y install libpq-dev build-essential
