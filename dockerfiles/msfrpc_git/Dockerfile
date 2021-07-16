@@ -8,7 +8,7 @@
 # Attach to msfconsole session:
 # - docker exec -it CID script -q -c "tmux a -t 0" /dev/null
 
-FROM ruby:2.3
+FROM ruby:2.5
 
 RUN apt-get update && apt-get -y install \
   build-essential zlib1g zlib1g-dev \
